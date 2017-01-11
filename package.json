@@ -156,6 +156,7 @@
     "abacus-publish": "file:tools/publish",
     "coveralls": "^2.11.3",
     "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-nodate": "file:tools/eslint-plugin-nodate",
     "jshint": "^2.8.0",
     "jsinspect": "^0.6.1"
   },

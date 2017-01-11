@@ -1,6 +1,7 @@
 ---
 plugins:
   - mocha
+  - nodate
 
 parser: espree
 
@@ -62,6 +63,7 @@ rules:
   complexity: [2, 6]
   arrow-parens: [2, "always"]
   mocha/no-exclusive-tests: 1
+  nodate/nodate: 1
 
   # WARNINGS
   # We use this for functions that reference each other
