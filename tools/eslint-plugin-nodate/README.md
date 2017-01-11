@@ -7,16 +7,14 @@ Disallow usage of new Date()
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ npm install eslint --save-dev
 ```
 
-Next, install `eslint-plugin-nodate`:
+Next, refer `eslint-plugin-nodate` in the package.json (devDependencies):
 
 ```
-$ npm install eslint-plugin-nodate --save-dev
+"eslint-plugin-nodate": "file:tools/eslint-plugin-nodate"
 ```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-nodate` globally.
 
 ## Usage
 
@@ -36,16 +34,11 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "nodate/rule-name": 2
+        "nodate/nodate": 2
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-
-
-
-
+* nodate
